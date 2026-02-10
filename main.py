@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 
 # import ml model
-with open("C:/Users/Aman/OneDrive/Documents/Python/ML_model_as_api/python_code/trained_model.sav","rb") as f:
+with open("trained_model.sav","rb") as f:
     model = pickle.load(f)
     
 
