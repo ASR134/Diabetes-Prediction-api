@@ -4,3 +4,4 @@ pydantic
 pickles
 scikit-learn
 numpy
+pandas
